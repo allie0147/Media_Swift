@@ -14,6 +14,7 @@
 		246134D0256C8D4B009BF2D5 /* Media_1124.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 246134CE256C8D4B009BF2D5 /* Media_1124.xcdatamodeld */; };
 		246134D2256C8D4E009BF2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246134D1256C8D4E009BF2D5 /* Assets.xcassets */; };
 		246134D5256C8D4E009BF2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246134D3256C8D4E009BF2D5 /* LaunchScreen.storyboard */; };
+		246134DF256C9788009BF2D5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 246134DE256C9788009BF2D5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		246134D1256C8D4E009BF2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246134D4256C8D4E009BF2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246134D6256C8D4E009BF2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246134DE256C9788009BF2D5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				246134D3256C8D4E009BF2D5 /* LaunchScreen.storyboard */,
 				246134D6256C8D4E009BF2D5 /* Info.plist */,
 				246134CE256C8D4B009BF2D5 /* Media_1124.xcdatamodeld */,
+				246134DE256C9788009BF2D5 /* .gitignore */,
 			);
 			path = Media_1124;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246134DF256C9788009BF2D5 /* .gitignore in Resources */,
 				246134D5256C8D4E009BF2D5 /* LaunchScreen.storyboard in Resources */,
 				246134D2256C8D4E009BF2D5 /* Assets.xcassets in Resources */,
 				246134CD256C8D4B009BF2D5 /* Main.storyboard in Resources */,
