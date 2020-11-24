@@ -19,9 +19,17 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPI-Qn-s3O">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem systemItem="camera" id="IJW-8x-fsD"/>
+                                    <barButtonItem systemItem="camera" id="IJW-8x-fsD">
+                                        <connections>
+                                            <action selector="cameraClicked:" destination="BYZ-38-t0r" id="aag-ZG-Tng"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="8W8-pR-bFT"/>
-                                    <barButtonItem systemItem="organize" id="3rH-l2-tua"/>
+                                    <barButtonItem systemItem="organize" id="3rH-l2-tua">
+                                        <connections>
+                                            <action selector="albumClicked:" destination="BYZ-38-t0r" id="uma-4o-AqQ"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8FV-KL-LJq">
@@ -40,6 +48,9 @@
                             <constraint firstItem="8FV-KL-LJq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zcF-CP-mFC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="8FV-KL-LJq" id="QZn-bv-TZG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
